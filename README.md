@@ -1,4 +1,4 @@
-iOS 8 Rendering Bug
+iOS snapshot API bug
 ============
 
 ## Problem
