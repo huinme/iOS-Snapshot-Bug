@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230FD20319EE3FAD0091BE83 /* UIView+ERBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 230FD20219EE3FAD0091BE83 /* UIView+ERBUtils.m */; };
 		233F29CE19EE35F400FDD174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 233F29CD19EE35F400FDD174 /* main.m */; };
-		233F29D119EE35F400FDD174 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 233F29D019EE35F400FDD174 /* AppDelegate.m */; };
-		233F29D419EE35F400FDD174 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233F29D319EE35F400FDD174 /* ViewController.m */; };
-		233F29D719EE35F400FDD174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233F29D519EE35F400FDD174 /* Main.storyboard */; };
-		233F29D919EE35F400FDD174 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233F29D819EE35F400FDD174 /* Images.xcassets */; };
-		233F29DC19EE35F400FDD174 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 233F29DA19EE35F400FDD174 /* LaunchScreen.xib */; };
 		233F29E819EE35F400FDD174 /* iOS8_Rendering_BugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 233F29E719EE35F400FDD174 /* iOS8_Rendering_BugTests.m */; };
+		233F29FE19EE361900FDD174 /* ERBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 233F29F419EE361900FDD174 /* ERBAppDelegate.m */; };
+		233F29FF19EE361900FDD174 /* ERBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233F29F719EE361900FDD174 /* ERBViewController.m */; };
+		233F2A0119EE361900FDD174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233F29FB19EE361900FDD174 /* Main.storyboard */; };
+		233F2A0219EE361900FDD174 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233F29FD19EE361900FDD174 /* Images.xcassets */; };
+		233F2A0519EE36BB00FDD174 /* ERBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233F2A0419EE36BB00FDD174 /* ERBNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +28,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		230FD20119EE3FAD0091BE83 /* UIView+ERBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ERBUtils.h"; sourceTree = "<group>"; };
+		230FD20219EE3FAD0091BE83 /* UIView+ERBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ERBUtils.m"; sourceTree = "<group>"; };
 		233F29C819EE35F400FDD174 /* iOS8-Rendering-Bug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS8-Rendering-Bug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		233F29CC19EE35F400FDD174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		233F29CD19EE35F400FDD174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		233F29CF19EE35F400FDD174 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		233F29D019EE35F400FDD174 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		233F29D219EE35F400FDD174 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		233F29D319EE35F400FDD174 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		233F29D619EE35F400FDD174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		233F29D819EE35F400FDD174 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		233F29DB19EE35F400FDD174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		233F29E119EE35F400FDD174 /* iOS8-Rendering-BugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS8-Rendering-BugTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		233F29E619EE35F400FDD174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		233F29E719EE35F400FDD174 /* iOS8_Rendering_BugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS8_Rendering_BugTests.m; sourceTree = "<group>"; };
+		233F29F319EE361900FDD174 /* ERBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERBAppDelegate.h; sourceTree = "<group>"; };
+		233F29F419EE361900FDD174 /* ERBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERBAppDelegate.m; sourceTree = "<group>"; };
+		233F29F619EE361900FDD174 /* ERBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERBViewController.h; sourceTree = "<group>"; };
+		233F29F719EE361900FDD174 /* ERBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERBViewController.m; sourceTree = "<group>"; };
+		233F29FC19EE361900FDD174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		233F29FD19EE361900FDD174 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		233F2A0319EE36BB00FDD174 /* ERBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERBNavigationController.h; sourceTree = "<group>"; };
+		233F2A0419EE36BB00FDD174 /* ERBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERBNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		230FD20019EE3FAD0091BE83 /* ClassCategories */ = {
+			isa = PBXGroup;
+			children = (
+				230FD20119EE3FAD0091BE83 /* UIView+ERBUtils.h */,
+				230FD20219EE3FAD0091BE83 /* UIView+ERBUtils.m */,
+			);
+			path = ClassCategories;
+			sourceTree = "<group>";
+		};
 		233F29BF19EE35F400FDD174 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +94,8 @@
 		233F29CA19EE35F400FDD174 /* iOS8-Rendering-Bug */ = {
 			isa = PBXGroup;
 			children = (
-				233F29CF19EE35F400FDD174 /* AppDelegate.h */,
-				233F29D019EE35F400FDD174 /* AppDelegate.m */,
-				233F29D219EE35F400FDD174 /* ViewController.h */,
-				233F29D319EE35F400FDD174 /* ViewController.m */,
-				233F29D519EE35F400FDD174 /* Main.storyboard */,
-				233F29D819EE35F400FDD174 /* Images.xcassets */,
-				233F29DA19EE35F400FDD174 /* LaunchScreen.xib */,
+				233F29F119EE361900FDD174 /* Classes */,
+				233F29F819EE361900FDD174 /* Resources */,
 				233F29CB19EE35F400FDD174 /* Supporting Files */,
 			);
 			path = "iOS8-Rendering-Bug";
@@ -117,6 +125,45 @@
 				233F29E619EE35F400FDD174 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		233F29F119EE361900FDD174 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				233F29F219EE361900FDD174 /* AppDelegate */,
+				233F29F519EE361900FDD174 /* ViewControllers */,
+				230FD20019EE3FAD0091BE83 /* ClassCategories */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		233F29F219EE361900FDD174 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				233F29F319EE361900FDD174 /* ERBAppDelegate.h */,
+				233F29F419EE361900FDD174 /* ERBAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		233F29F519EE361900FDD174 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				233F2A0319EE36BB00FDD174 /* ERBNavigationController.h */,
+				233F2A0419EE36BB00FDD174 /* ERBNavigationController.m */,
+				233F29F619EE361900FDD174 /* ERBViewController.h */,
+				233F29F719EE361900FDD174 /* ERBViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		233F29F819EE361900FDD174 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				233F29FB19EE361900FDD174 /* Main.storyboard */,
+				233F29FD19EE361900FDD174 /* Images.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +215,7 @@
 				TargetAttributes = {
 					233F29C719EE35F400FDD174 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 4P438KL9Q8;
 					};
 					233F29E019EE35F400FDD174 = {
 						CreatedOnToolsVersion = 6.1;
@@ -199,9 +247,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				233F29D719EE35F400FDD174 /* Main.storyboard in Resources */,
-				233F29DC19EE35F400FDD174 /* LaunchScreen.xib in Resources */,
-				233F29D919EE35F400FDD174 /* Images.xcassets in Resources */,
+				233F2A0119EE361900FDD174 /* Main.storyboard in Resources */,
+				233F2A0219EE361900FDD174 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				233F29D419EE35F400FDD174 /* ViewController.m in Sources */,
-				233F29D119EE35F400FDD174 /* AppDelegate.m in Sources */,
+				233F29FE19EE361900FDD174 /* ERBAppDelegate.m in Sources */,
+				233F2A0519EE36BB00FDD174 /* ERBNavigationController.m in Sources */,
+				230FD20319EE3FAD0091BE83 /* UIView+ERBUtils.m in Sources */,
 				233F29CE19EE35F400FDD174 /* main.m in Sources */,
+				233F29FF19EE361900FDD174 /* ERBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +293,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		233F29D519EE35F400FDD174 /* Main.storyboard */ = {
+		233F29FB19EE361900FDD174 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				233F29D619EE35F400FDD174 /* Base */,
+				233F29FC19EE361900FDD174 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		233F29DA19EE35F400FDD174 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				233F29DB19EE35F400FDD174 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,9 +384,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "iOS8-Rendering-Bug/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "71dd64a3-927d-4a33-921c-5090cae12962";
 			};
 			name = Debug;
 		};
@@ -353,9 +398,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "iOS8-Rendering-Bug/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "71dd64a3-927d-4a33-921c-5090cae12962";
 			};
 			name = Release;
 		};
@@ -412,6 +461,7 @@
 				233F29ED19EE35F400FDD174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		233F29EE19EE35F400FDD174 /* Build configuration list for PBXNativeTarget "iOS8-Rendering-BugTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +470,7 @@
 				233F29F019EE35F400FDD174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
